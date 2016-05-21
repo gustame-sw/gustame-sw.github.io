@@ -1,0 +1,15 @@
+{
+  "name": "gustame-landing-page",
+  "authors": [
+    "Gabriel Hoff <gabrielhof@gmail.com>"
+  ],
+  "description": "Conectar cozinheiros e pessoas com fome",
+  "main": "",
+  "moduleType": [],
+  "license": "proprietary",
+  "homepage": "gustame.co",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "3.3.6"
+  }
+}

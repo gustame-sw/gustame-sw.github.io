@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+      <meta name="description" content="" /> <!-- 156 caracteres -->
+      <!--link rel="icon" href="../../favicon.ico" /-->
+
+		<title>GustaMe</title>
+
+		<link href="components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+  </head>
+
+	<body>
+		<div class="site-wrapper">
+			<div class="site-wrapper-inner">
+				<div class="cover-container">
+					<div class="inner cover">
+						<h1 class="cover-heading">GustaMe</h1>
+						<p class="lead">Conectamos cozinheiros e pessoas com fome.</p>
+						<p class="lead">
+							<a href="#" class="btn btn-lg btn-default">Cadastre-se</a>
+						</p>
+					</div>
+				</div>
+
+        <div class="register-form">
+          <h2>Bora preparar e comer uma refeição deliciosa?</h2>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="nome" placeholder="Seu nome" required="required" />
+            </div>
+
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Seu email" required="required" />
+            </div>
+
+            <div class="form-group">
+              <input type="tel" class="form-control" id="telefone" placeholder="Telefone" required="required" />
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="cozinheiroConsumidor" id="cozinheiroConsumidor" value="cozinheiro" />
+                Gosto de cozinhar!
+              </label>
+              <label>
+                <input type="radio" name="cozinheiroConsumidor" id="cozinheiroConsumidor" value="consumidor" />
+                Gosto de comer!
+              </label>
+              <label>
+                <input type="radio" name="cozinheiroConsumidor" id="cozinheiroConsumidor" value="cozinheiroConsumidor" checked />
+                Gosto de comer e cozinhar!
+              </label>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg btn-block">Quero me cadastrar!</button>
+          </form>
+        </div>
+			</div>
+		</div>
+
+		<script src="components/jquery/dist/jquery.min.js"></script>
+		<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
