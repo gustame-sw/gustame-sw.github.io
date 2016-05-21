@@ -131,7 +131,7 @@ body {
 
 .register-form {
   background: white none repeat scroll 0% 0%;
-  padding: 40px 27%;
+  padding: 40px 4%;
 }
 
 /*
@@ -157,6 +157,11 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+
+  .register-form {
+    background: white none repeat scroll 0% 0%;
+    padding: 40px 27%;
   }
 }
 
