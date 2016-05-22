@@ -27,32 +27,39 @@ a:hover {
 html,
 body {
   height: 100%;
+  background-color: #be1622;
   background-image: url("../images/background.jpg");
-  background-size: cover;
+  background-size: auto 353px;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-family: "Sans";
+  font-weight: bold;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
+  width: 10px;
+  height: 100%;
   min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  padding: 80px 0px 20px;
+  margin: auto;
 }
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 37px;
 }
 .cover-container {
   margin-right: auto;
   margin-left: auto;
-  height: 500px;
+  height: 274px;
 }
 
 /* Padding for spacing */
@@ -78,8 +85,6 @@ body {
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
@@ -112,26 +117,55 @@ body {
  */
 
 .cover {
-  padding: 20% 20px;
+  background-image: url("../images/logo-header.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 367px;
+  height: 274px;
 }
 .cover .btn-lg {
   padding: 10px 20px;
   font-weight: bold;
 }
 
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+.register-form {
+  padding: 0px 11px 11px;
+}
+.slogan-panel {
+  background-color: #f9b233;
+  height: 100px;
+  margin-top: -1px;
 }
 
-.register-form {
-  background: white none repeat scroll 0% 0%;
-  padding: 40px 4%;
+.slogan-panel h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  padding-top: 8%;
+}
+
+.register-form form {
+  background-color: white;
+  padding: 12px 25px 0px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  color: black;
+}
+
+.register-form form .submit-form {
+  margin: 0px -25px;
+  width: 365px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 27px;
+  border-bottom-right-radius: 27px;
+  background-color: #f9b233;
+  border-color: #f9b233;
+}
+
+.register-form form .submit-form:hover {
+  background-color: #f3a319;
+  border-color: #f3a319;
 }
 
 /*
@@ -157,18 +191,5 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
-
-  .register-form {
-    background: white none repeat scroll 0% 0%;
-    padding: 40px 27%;
-  }
-}
-
-@media (min-width: 992px) {
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 700px;
   }
 }
